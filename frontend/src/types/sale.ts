@@ -7,7 +7,7 @@ export type Sale = {
     amount: number;
     date: string;
     seller: Seller;
-}
+} 
 
 export type SalePage = {
     content?: Sale[];
@@ -22,12 +22,12 @@ export type SalePage = {
 }
 
 export type SaleSum = {
-    sallerName: string;
+    sellerName: string;
     sum: number;
 }
 
 export type SaleSuccess = {
-    sallerName: string;
+    sellerName: string;
     visited: number;
     deals: number;
 }

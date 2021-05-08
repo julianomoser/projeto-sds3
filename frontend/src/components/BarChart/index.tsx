@@ -26,7 +26,7 @@ const BarChart = () => {
         series: [
             {
                 name: "",
-                data: []
+                data: []                   
             }
         ]
     });
@@ -35,7 +35,7 @@ const BarChart = () => {
         axios.get(`${BASE_URL}/sales/success-by-seller`)
             .then(response => {
                 const data = response.data as SaleSuccess[];
-                const myLabels = data.map(x => x.sallerName);
+                const myLabels = data.map(x => x.sellerName);
                 const mySeries = data.map(x => round(100.0 * x.deals / x.visited, 1));
 
                 setChartData({
@@ -44,8 +44,8 @@ const BarChart = () => {
                     },
                     series: [
                         {
-                            name: "% Sucess",
-                            data: mySeries
+                            name: "% Success",
+                            data: mySeries                   
                         }
                     ]
                 });
@@ -59,14 +59,14 @@ const BarChart = () => {
             }
         },
     };
-    
+
     return (
-        <Chart
-            options={{ ...options, xaxis: chartData.labels }}
+       <Chart  
+            options={{ ...options, xaxis: chartData.labels}}
             series={chartData.series}
             type="bar"
             height="240"
-        />
+       />
     );
 }
 
