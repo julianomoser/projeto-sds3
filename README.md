@@ -1,6 +1,6 @@
 # ![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) Semana Spring React - SDS 3.0
 
-# DS Movie
+# DS Vendas
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/julianomoser/projeto-sds3/blob/main/LICENSE) 
 
 # Sobre o projeto
