@@ -38,7 +38,7 @@ Pré-requisitos: Java 11
 
 ```bash
 # clonar repositório
-git clone https://github.com/julianomoser/dsmovie
+git clone https://github.com/julianomoser/projeto-sds3
 
 # entrar na pasta do projeto back end
 cd backend
@@ -52,7 +52,7 @@ Pré-requisitos: npm / yarn
 
 ```bash
 # clonar repositório
-git clone https://github.com/julianomoser/dsmovie
+git clone https://github.com/julianomoser/projeto-sds3
 
 # entrar na pasta do projeto front end web
 cd front-web
