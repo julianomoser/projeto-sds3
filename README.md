@@ -7,12 +7,15 @@
 
 https://moser-dsvendas.netlify.app/dashboard
 
-DS Vendas é uma aplicação full stack web construída durante a 3ª edição da **Semana DevSuperior**, evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+DS Vendas é uma aplicação full stack web construída durante a 3ª edição da **Semana DevSuperior**, evento organizado pela [DevSuperior](https://devsuperior.com.br "Site da DevSuperior").
 
 A aplicação consiste em exibir um dashboard para analise do desempenho das vendas por diferentes perspectivas.
 
 ## Layout web
 ![Mobile 1](https://github.com/julianomoser/assets/blob/main/raw/main/sds2/DSVendas%20Dashboard.png) ![Web 2](https://github.com/julianomoser/assets/blob/main/raw/main/sds2/DSVendas.png)
+
+## Modelo conceitual
+![Modelo Conceitual](https://github.com/julianomoser/assets/blob/main/raw/main/sds2/conceitual.png)
 
 # Tecnologias utilizadas
 ## Back end
